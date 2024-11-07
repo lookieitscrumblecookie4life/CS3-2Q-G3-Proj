@@ -42,7 +42,7 @@ a.nav-activebar {
 .nav-bar a::after {
   content: "";
   position: absolute;
-  width: 0;
+  width: 0px;
   height: 2px;
   background-color: #ffb800;
   bottom: 0;
