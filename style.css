@@ -1,0 +1,120 @@
+body {
+  font-family: 'Avenir', sans-serif;
+  background-color: #fffdf5;
+  margin: 0px 100px;
+  padding: 0px;
+}
+
+.nav-bar {
+  background: #fffdf5;
+  padding: 30px;
+  font-size: 15px;  
+}
+
+.nav-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #1d708d;
+  font-size: 16px;
+  margin-right: 40px;  /* Increased space between items */
+  position: relative; /* Needed to position the underline */
+  padding-bottom: 5px; /* Space for the underline */
+}
+
+a.nav-activebar {
+  color: #4caf50;
+}
+
+.nav-bar a:hover {
+  color: #ffb800;
+}
+
+/* Sliding underline effect */
+a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #ffb800; /* Underline color */
+  bottom: 0;
+  left: 0;
+  transition: 0.3s; 
+}
+
+a:hover::after {
+  width: 100%; /* Underline will expand to the full width of the link */
+}
+
+.slogan {
+  font-size: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 0px;
+  color: #1d708d;
+  text-align: center;
+}
+
+.content {
+  clear: both;
+  margin: 0;  
+}
+
+.content h1, .content p {
+  margin: 0px;  
+}
+
+.content p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.intropic {
+  float: right;
+  margin: 0 0 15px 15px; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;   /* Center the button horizontally */
+  align-items: center;       /* Center vertically (optional) */
+}
+
+.button {
+  background-color: #1d708d;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #ffb800;
+}
+
+/* Center the .text above .slogan */
+.text-container {
+  text-align: center;
+  margin-top: 50px; /* Adjust space above */
+}
+
+.text {
+  font-family: 'Avenir', sans-serif;
+  font-size: 14px;
+  color: #1d708d;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 20px; /* Space between text and slogan */
+}
