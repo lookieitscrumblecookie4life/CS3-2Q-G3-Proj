@@ -42,12 +42,12 @@ a.nav-activebar {
 .nav-bar a::after {
   content: "";
   position: absolute;
-  width: 0px;
+  width: 0;
   height: 2px;
   background-color: #ffb800;
   bottom: 0;
   left: 0;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .nav-bar a:hover::after {
@@ -128,7 +128,7 @@ a.nav-activebar {
 
 .text {
   font-family: 'Avenir', sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   color: #1d708d;
   line-height: 22px;
   font-weight: 400;
