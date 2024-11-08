@@ -39,6 +39,10 @@ a.nav-activebar {
   background: lightblue;
 }
 
+.nav-bar a:active {
+  background: lightblue;
+}
+
 .nav-bar a:hover {
   color: #ffb800;
 }
