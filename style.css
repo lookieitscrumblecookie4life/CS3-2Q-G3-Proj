@@ -8,7 +8,8 @@ body {
 .nav-bar {
   background: #fffdf5;
   padding: 30px;
-  font-size: 15px;  
+  font-size: 15px; 
+  color: greenyellow; 
 }
 
 .nav-div {
@@ -33,6 +34,10 @@ a {
 
 a.nav-activebar {
   color: #4caf50;
+}
+
+.nav-bar a:visited {
+  color: purple;
 }
 
 .nav-bar a:hover {
