@@ -1,0 +1,242 @@
+body {
+    font-family: 'Avenir', sans-serif;
+    background-color: #fffdf5;
+    margin: 0px 100px;
+    padding: 0px;
+}
+
+.nav-bar {
+    background: #fffdf5;
+    padding: 30px;
+    font-size: 15px;  
+}
+  
+.nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+li {
+    list-style: none;
+    display: inline-block;
+}
+  
+.nav-div a {
+    text-decoration: none; 
+    color: #1d708d;
+    font-size: 16px;
+    margin-right: 40px;  
+    position: relative;
+    padding-bottom: 5px;
+}
+  
+a.nav-activebar {
+    color: #4caf50;
+}
+  
+.nav-bar a:active {
+    background: lightblue;
+}
+  
+.nav-bar a:active {
+    background: lightblue;
+}
+  
+.nav-bar a:hover {
+    color: #ffb800;
+}
+  
+.nav-bar a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ffb800;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+  
+.nav-bar a:hover::after {
+    width: 100%; 
+}
+  
+.logo a {
+    text-decoration: none;
+}
+  
+.logo a:hover {
+    text-decoration: none; 
+    outline: none;  
+}
+  
+.logo a::after {
+    content: none;
+}
+  
+.slogan {
+    font-size: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0px;
+    color: #1d708d;
+    text-align: center;
+}
+  
+.content {
+    clear: both;
+    margin: 0;
+}
+  
+.content h1, .content p {
+    margin: 0px;
+}
+  
+.content p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+  
+.intropic {
+    float: right;
+    margin: 0 0 15px 15px; 
+}
+  
+.button-container {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+  
+.button {
+    background-color: #1d708d;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.button:hover {
+    background-color: #ffb800;
+    text-decoration: none; 
+}
+  
+.button::after {
+    content: none;  
+}
+  
+.text-container {
+    margin-top: 50px; 
+    margin-right: 500px;
+    margin-left: 100px;
+}
+  
+.text {
+    font-family: 'Avenir', sans-serif;
+    font-size: 17px;
+    color: #1d708d;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+  
+.banner-image {
+    width: 100%;
+    background-image: url(https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/05-02-2024_UNRWA_Gaza-01.jpg/image1170x530cropped.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: none;
+    position: relative;
+}
+  
+.video-container {
+    float: right; 
+    width: 356px;
+    margin: 0 0 15px 15px; 
+}
+  
+.intro-topic {
+    width: 100%;
+    height: 200px; 
+}
+  
+.video-container div:nth-child(1) {
+    font-size: 16px;
+    line-height: 1.4px; 
+    margin-top: 10px; 
+    color: #333; 
+}
+
+.video {
+    align-items: center;
+    width: 316px;
+    height: 180px;
+}
+
+.video-background {
+    background-color: #fff3d5;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.video-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.text-container {
+    overflow: hidden; 
+}
+  
+.article-titleheader {
+    font-size: 50px;
+    font-family: Aptos;
+    text-align: left;
+    color: #454545;
+}
+  
+.author-date {
+    font-size: 15px;
+    font-family: Baskerville, Avenir;
+    text-align: left;
+    display: block;
+}
+  
+.content p {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: left;
+    margin-right: 70px;
+    font-family: Baskerville, Avenir;
+}
+
+.return-link {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    margin-right: 70px;
+    text-decoration: none;
+    color: #1d708d;
+}
+
+.return-link:hover {
+    color: #4caf50;
+}
+
+.aside-intro {
+    color: #1d708d;
+    text-align: center;
+}
+
+  
+  
+  
